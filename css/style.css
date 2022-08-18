@@ -41,7 +41,6 @@ a:hover{
     align-items: center;
     gap: 100px;
     background-color: #85F4FF;
-    /* height: 800px; */
     height: 85vh;
 }
 
@@ -527,9 +526,160 @@ b{
 
                             /* media querys index */
 
-/* @media screen and (max-width:992px) {
-    body{
-        background-color: red;
+@media screen and (max-width:1200px) {
+    .divPortada2{
+        padding: 20px;
+    }
+    .divPortada2 h1{
+        font-size: 4rem;
+    }
+    .divPortada2 p{
+        margin-left: 18px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .divPortada{
+        flex-direction: column;
+    }
+    .divPortada2{
+        padding: 15px;
+        border: white solid 2px;
+        width: 400px;
+    }
+    .divPortada2 h1{
+        font-size: 3.5rem;
+    }
+    .sectionMain P{
+        font-size: 1.3rem;
+    }
+    .containerGrid{
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+        grid-template-areas:
+        "parrafo"
+        "tipoTortu1" 
+        "parrafoTipo1"
+        "tipoTortu2"
+        "parrafoTipo2" 
+        "tipoTortu3"
+        "parrafoTipo3"
+        "tipoTortu4"
+        "parrafoTipo4" 
+        "tipoTortu5"
+        "parrafoTipo5"
+        "tipoTortu6"
+        "parrafoTipo6" 
+        "tipoTortu7"
+        "parrafoTipo7";
+    }
+    .tipoTortu7{
+        margin-bottom: auto;
+    }
+    .containerGridDos{
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas: 
+        "sectionGridDos"
+        "sectionGridDos2"
+        "sectionGridDos3"
+        "videoGridDos";
+    }
+    .sectionGridDos3{
+        margin-bottom: 25px;
     }
 
-} */
+    .sectionFlex h2{
+        margin-top: 2rem;
+    }
+    
+    .sectionFlex p{
+        padding: 25px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .containerGrid h2{
+        font-size: 2rem;
+    }
+    .containerGrid p{
+        font-size: 1rem;
+        text-align: justify;
+    }
+    .parrafoMainTipo p{
+        font-size: 1.2rem;
+        text-align: justify;
+    }
+    .sectionMain p{
+        font-size: 1.2rem;
+        text-align: justify;
+    }
+
+    .containerGridDos h2{
+        font-size: 2rem;
+    }
+    .containerGridDos p{
+        font-size: 1rem;
+        text-align: justify;
+    }
+    .sectionGridDos2 h3{
+        font-size: 1.3rem;
+    }
+    .sectionGridDos p{
+        font-size: 1.2rem;
+        text-align: justify;
+    }
+    table{
+        font-size: 1rem;
+    }
+
+    .mainFlex p{
+        font-size: 1rem;
+        text-align: justify;
+    }
+    .sectionFlex h2{
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+    .sectionFlex p{
+        font-size: 1.2rem;
+        text-align: justify;
+    }
+    .sectionFlex h3{
+        font-size: 1.3rem;       
+    }
+    .sectionFlex2 ul li{
+        font-size: 1rem;
+    }
+    .mainFlex h3{
+        font-size: 1.3rem;
+    }
+    .voluntariado p{
+        text-align: justify;
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+    .voluntariado h2{
+        font-size: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+    .voluntariado h3{
+        font-size: 1.2rem;
+    }
+    .voluntariado ul li{
+        font-size: 1rem;
+    }
+    .voluntariadoSection p{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:576px) {
+    .video{
+        width:450px;
+        height:250px;
+    }
+    .sectionFlex2{
+        padding: 20px;
+    }
+}
