@@ -526,7 +526,10 @@ b{
 
                             /* media querys index */
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1250px) {
+    .divPortada{
+        flex-direction: column;
+    }
     .divPortada2{
         padding: 20px;
     }
@@ -535,23 +538,6 @@ b{
     }
     .divPortada2 p{
         margin-left: 18px;
-    }
-}
-
-@media screen and (max-width:992px) {
-    .divPortada{
-        flex-direction: column;
-    }
-    .divPortada2{
-        padding: 15px;
-        border: white solid 2px;
-        width: 400px;
-    }
-    .divPortada2 h1{
-        font-size: 3.5rem;
-    }
-    .sectionMain P{
-        font-size: 1.3rem;
     }
     .containerGrid{
         grid-template-columns: auto;
@@ -595,6 +581,26 @@ b{
     
     .sectionFlex p{
         padding: 25px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .divPortada{
+        flex-direction: column;
+    }
+    .divPortada2{
+        padding: 15px;
+        border: white solid 2px;
+    }
+    .divPortada2 h1{
+        font-size: 3.5rem;
+    }
+    .sectionMain P{
+        font-size: 1.3rem;
+    }
+    .video{
+        width:450px;
+        height:250px;
     }
 }
 
@@ -673,11 +679,15 @@ b{
     .voluntariadoSection p{
         font-size: 1rem;
     }
+
+    .sectionFlex2{
+        padding: 20px;
+    }
 }
 @media screen and (max-width:576px) {
     .video{
-        width:450px;
-        height:250px;
+        width:350px;
+        height:150px;
     }
     .sectionFlex2{
         padding: 20px;
