@@ -583,12 +583,16 @@ b{
         padding: 25px;
     }
     .video{
-        width:450px;
+        width:350px;
         height:250px;
     }
     .imgTurtle{
-        width: 400px;
+        width: 350px;
         height: 250px;
+    }
+    .imgLogo{
+        height: 50px;
+        width: 50px;
     }
 }
 
