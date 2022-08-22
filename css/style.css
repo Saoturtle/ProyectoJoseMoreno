@@ -600,9 +600,8 @@ b{
         height: 50px;
         width: 50px;
     }
-    .voluntariadoQuery{
-        padding: 1rem;
-        margin: 5px;
+    .voluntariadoSection{
+        height: 70%;
     }
 }
 
@@ -612,7 +611,6 @@ b{
     }
     .divPortada2{
         padding: 15px;
-        border: white solid 2px;
     }
     .divPortada2 h1{
         font-size: 3.5rem;
