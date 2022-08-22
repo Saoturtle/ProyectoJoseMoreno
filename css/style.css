@@ -5,6 +5,9 @@
     box-sizing: border-box;
 }
 
+p{
+    color: #212121;
+}
 a{
     text-decoration: none;
     color: black;
@@ -24,7 +27,7 @@ a:hover{
     position: sticky;
     top: 0px;
     z-index: 2;
-    background-color: #85F4FF;
+    background-color: #97DBAE;
 }
 
 .navBarHeader{
@@ -40,7 +43,7 @@ a:hover{
     justify-content: center;
     align-items: center;
     gap: 100px;
-    background-color: #85F4FF;
+    background-color: #97DBAE;
     height: 85vh;
 }
 
@@ -60,17 +63,18 @@ a:hover{
 
 .divPortada2{ 
     flex-direction: column;
-    border: white solid 3px;
+    /* border: white solid 3px; */
     padding: 50px;
 }
 
 .divPortada2 h1{
-    color: #A66D03;
+    color: #5F3535;
     font-size: 5rem;
     font: bold;
 }
 
 .divPortada2 p{
+    color: #212121;
     font-style: italic;
     margin-left: 20px;
 }
@@ -97,7 +101,7 @@ a:hover{
 }
 
 .footer{
-    background-color: #85F4FF;
+    background-color: #97DBAE;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -107,10 +111,12 @@ a:hover{
 
 .footer a{
     font-size: 1.2rem;
+    color: #212121;
 }
 
 .footer h3{
     font-size: 1.3rem;
+    color: #212121;
 }
 
                             /* estilos html tipos */
@@ -138,11 +144,11 @@ a:hover{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #85F4FF;
+    background-color: #97DBAE;
 }
 
 .parrafoMainTipo h2{
-    color: #A66D03;
+    color: #5F3535;
     margin-top: 2.5rem;
     font-size: 3rem;
     margin-bottom: 3rem;
@@ -169,10 +175,10 @@ a:hover{
     width: 85%;
 }
 .parrafoTipo1 h3{
-    color: #A66D03;
+    color: #5F3535;
 }
 .parrafoTipo1 P{
-    background-color: #85F4FF;
+    background-color: #97DBAE;
     padding: 15px;
     border-radius: 10px;
     font-size: 20px;
@@ -193,10 +199,10 @@ a:hover{
     width: 85%;
 }
 .parrafoTipo2 h3{
-    color: #A66D03;
+    color: #5F3535;
 }
 .parrafoTipo2 P{
-    background-color: #85F4FF;
+    background-color: #97DBAE;
     padding: 15px;
     border-radius: 10px;
     font-size: 20px;
@@ -217,10 +223,10 @@ a:hover{
     width: 85%;
 }
 .parrafoTipo3 h3{
-    color: #A66D03;
+    color: #5F3535;
 }
 .parrafoTipo3 P{
-    background-color: #85F4FF;
+    background-color: #97DBAE;
     padding: 15px;
     border-radius: 10px;
     font-size: 20px;
@@ -241,10 +247,10 @@ a:hover{
     width: 85%;
 }
 .parrafoTipo4 h3{
-    color: #A66D03;
+    color: #5F3535;
 }
 .parrafoTipo4 P{
-    background-color: #85F4FF;
+    background-color: #97DBAE;
     padding: 15px;
     border-radius: 10px;
     font-size: 20px;
@@ -265,10 +271,10 @@ a:hover{
     width: 85%;
 }
 .parrafoTipo5 h3{
-    color: #A66D03;
+    color: #5F3535;
 }
 .parrafoTipo5 P{
-    background-color: #85F4FF;
+    background-color: #97DBAE;
     padding: 15px;
     border-radius: 10px;
     font-size: 20px;
@@ -289,10 +295,10 @@ a:hover{
     width: 85%;
 }
 .parrafoTipo6 h3{
-    color: #A66D03;
+    color: #5F3535;
 }
 .parrafoTipo6 P{
-    background-color: #85F4FF;
+    background-color: #97DBAE;
     padding: 15px;
     border-radius: 10px;
     font-size: 20px;
@@ -315,10 +321,10 @@ a:hover{
     margin-bottom: 3rem;
 }
 .parrafoTipo7 h3{
-    color: #A66D03;
+    color: #5F3535;
 }
 .parrafoTipo7 P{
-    background-color: #85F4FF;
+    background-color: #97DBAE;
     padding: 15px;
     border-radius: 10px;
     font-size: 20px;
@@ -348,12 +354,12 @@ a:hover{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #85F4FF;
+    background-color: #97DBAE;
     margin-bottom: 2rem;
 }
 
 .sectionGridDos h2{
-    color: #A66D03;
+    color: #5F3535;
     margin-top: 2.5rem;
     font-size: 3rem;
     margin-bottom: 3rem;
@@ -375,12 +381,12 @@ a:hover{
 }
 
 .sectionGridDos2 h3{
-    color: #A66D03;
+    color: #5F3535;
     margin-bottom: 1rem;
 }
 
 .sectionGridDos2 p{
-    background-color: #85F4FF;
+    background-color: #97DBAE;
     padding: 15px;
     border-radius: 10px;
     font-size: 20px;
@@ -406,7 +412,7 @@ a:hover{
 }
 
 .videoGridDos p{
-    background-color: #85F4FF;
+    background-color: #97DBAE;
     padding: 15px;
     border-radius: 10px;
     font-size: 20px;
@@ -415,7 +421,7 @@ a:hover{
 table{
     border-spacing: 5px;
     font-size: 20px;
-    background-color: #85F4FF;
+    background-color: #97DBAE;
 }
 
 th{
@@ -441,13 +447,13 @@ th, td {
 }
 
 .sectionFlex{
-    background-color: #85F4FF;
+    background-color: #97DBAE;
     height: 70%;
     margin-bottom: 3rem;
 }
 .sectionFlex h2{
-    background-color: #85F4FF;
-    color: #A66D03;
+    background-color: #97DBAE;
+    color: #5F3535;
     font-size: 3rem;
     margin-top: 9rem;
 
@@ -460,11 +466,11 @@ th, td {
 }
 
 .htresDivFlex{
-    color: #A66D03;
+    color: #5F3535;
 }
 
 .sectionFlex2{
-    background-color: #85F4FF;
+    background-color: #97DBAE;
     font-size: 20px;
     padding: 50px;
     width: 85%;
@@ -478,20 +484,20 @@ th, td {
 }
 
 b{
-    color: #A66D03;
+    color: #5F3535;
 }
 
                             /* estilos html voluntariado */
 
 .voluntariado h2{
-    color: #A66D03;
+    color: #5F3535;
     font-size: 3rem;
     margin-top: 9rem;
     margin-bottom: 2rem;
 }
 
 .voluntariadoPortada{
-    background-color: #85F4FF;  
+    background-color: #97DBAE;  
 }
 
 .voluntariadoPortada p{
@@ -501,11 +507,11 @@ b{
 }
 
 .voluntariadoSection{
-    background-color: #85F4FF;
+    background-color: #97DBAE;
 }
 
 .voluntariado h3{
-    color: #A66D03;
+    color: #5F3535;
 }
 
 .voluntariado p{
@@ -593,6 +599,10 @@ b{
     .imgLogo{
         height: 50px;
         width: 50px;
+    }
+    .voluntariadoQuery{
+        padding: 1rem;
+        margin: 5px;
     }
 }
 
